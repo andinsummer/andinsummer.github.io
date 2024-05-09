@@ -47,26 +47,26 @@
   </entry>
   
   <entry>
-    <title>十三岁</title>
-    <link href="https://andinsummer.github.io/2024/05/08/%E5%8D%81%E4%B8%89%E5%B2%81/"/>
-    <id>https://andinsummer.github.io/2024/05/08/%E5%8D%81%E4%B8%89%E5%B2%81/</id>
-    <published>2024-05-07T16:00:00.000Z</published>
-    <updated>2024-05-07T12:23:29.894Z</updated>
+    <title>spawn failed错误的解决方法</title>
+    <link href="https://andinsummer.github.io/2024/05/06/spawn%20failed%E9%94%99%E8%AF%AF%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+    <id>https://andinsummer.github.io/2024/05/06/spawn%20failed%E9%94%99%E8%AF%AF%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
+    <published>2024-05-05T16:00:00.000Z</published>
+    <updated>2024-05-09T04:56:38.271Z</updated>
     
-    <content type="html"><![CDATA[<p>各位朋友们好呀b（￣▽￣）d　，很高兴遇见你，这里是红柚的个人站！是我送给自己的13岁生日礼物🎈<br>存放一些教程，同人（R向居多）和碎碎念（当然所有和我有关的东西都可能在这里出现）我的邮箱就在最下方hh，欢迎大家随时骚扰（回复不及时致歉orz）<br>新的一年希望能交到更多朋友！以及学好英语TT，英语到底怎么学……英语到底怎么学啊啊啊！（带着英文原著发出怨恨的声音<br>这同时是一个属性条，但是只代表我2024年的属性，并且，随时更新！<br>最近oc浓度持续升高中，wechat常驻qq发了回复可能会慢一点点但是邮件看见的最快（）看的番和小说蛮多的都可以和我聊啊！<br>1.aph：耀左，湾左前提超级无敌杂食！但是意外的喜欢吃软绵绵（）<br>2.khr：6927&#x2F;柿犬是真爱！+1左位，能吃+118和+1100，以及爱吃初雾空和初雨岚（由此可以看出我的骸纲和山狱属性了）（爆笑）<br>3.BANANAFISH：英A2333，但是不雷A英，不是很想纠结左右位，希望你们能永远在一起（爆哭<br>4.BTA：是中野重治单推gfw，重多喜&#x2F;檀太&#x2F;谷芥等等，基本上在搞套皮史同<br>5.EPIC：虽然odypen绝对是真爱但是经常进食poliody相关，食莲组好样的！（底气不足<br>6.Jesus Christ Superstar：JCS是帝美姐，请支持jesus当1！只喜欢96版的dbq<br>7.无间双龙：美帝姐扳回一局！段龙是最美味的！<br>8.蔷薇少女：姊妹骨科的天堂，并且没有血缘的限制（什），在一起就行不纠结攻受了，分开这种事情不要啊！<br>9.历史同人：最终还是绕不开（），平常全都是日本战国和西方音美，支持上杉景虎当1，支持文森特和提奥搞基<br>10.名著同人：陀和山多尔浓度最高，时不时参杂一些无赖派，但是爱看的还是日近文学比较多<br>11.索要一个生日快乐QWQ</p>]]></content>
+    <content type="html"><![CDATA[<p>最近上传文件的时候经常出错，发现有朋友也被这个困扰，网上的教程大部分都是针对搭建博客时的错误而非部署时的错误，现在解决之后来个复盘。<br>网上主流方法有三类<br>1.把”config.yml”文件的repo从仓库地址改成SSH地址（解决部分网络问题）<br>2.删除”.deploy_git”文件重新部署（用于解决deploy文件产生错误）<br>3.对于代理产生的错误，修改DNS，增加&#x2F;删除GIT代理等</p><p>第三个不是很推荐，除非很确定是代理产生的错误，否则最好不要尝试。<br>第一个和第二个都亲测过，只能说两个都对症，最好部署博客的时候就把repo改成SSH地址（即<a href="mailto:&#x67;&#x69;&#x74;&#x40;&#x67;&#105;&#116;&#104;&#117;&#x62;&#46;&#99;&#x6f;&#x6d;">&#x67;&#x69;&#x74;&#x40;&#x67;&#105;&#116;&#104;&#117;&#x62;&#46;&#99;&#x6f;&#x6d;</a>:yourname&#x2F;yourname.github.io.git），第二条通常情况下很管用，但是第一条第二条都排除过，并且证明了不是端口或者科学上网的原因之后，最好重启电脑，99％都是网络问题导致的（剩下的1％有点玄学的赶脚在里面）<br>但是也有暴力的办法（来自<a href="https://blog.zhheo.com/p/128998ac.html%EF%BC%89%EF%BC%8C%E5%BC%BA%E5%88%B6%E6%8E%A8%E8%BF%9B%EF%BC%8Ccd%E8%BF%9B.deploy_git%E6%96%87%E4%BB%B6%E5%A4%B9%EF%BC%8C%E7%84%B6%E5%90%8E%E4%BD%BF%E7%94%A8git">https://blog.zhheo.com/p/128998ac.html），强制推进，cd进.deploy_git文件夹，然后使用git</a> push -f强制推送。不过治标不治本（有时候连标都治不了），不推荐。</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;各位朋友们好呀b（￣▽￣）d　，很高兴遇见你，这里是红柚的个人站！是我送给自己的13岁生日礼物🎈&lt;br&gt;存放一些教程，同人（R向居多）和碎碎念（当然所有和我有关的东西都可能在这里出现）我的邮箱就在最下方hh，欢迎大家随时骚扰（回复不及时致歉orz）&lt;br&gt;新的一年希望能交</summary>
+    <summary type="html">&lt;p&gt;最近上传文件的时候经常出错，发现有朋友也被这个困扰，网上的教程大部分都是针对搭建博客时的错误而非部署时的错误，现在解决之后来个复盘。&lt;br&gt;网上主流方法有三类&lt;br&gt;1.把”config.yml”文件的repo从仓库地址改成SSH地址（解决部分网络问题）&lt;br&gt;2.删除”.</summary>
       
     
     
     
-    <category term="岁岁今朝" scheme="https://andinsummer.github.io/categories/%E5%B2%81%E5%B2%81%E4%BB%8A%E6%9C%9D/"/>
+    <category term="博客搭建二三事" scheme="https://andinsummer.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%BA%8C%E4%B8%89%E4%BA%8B/"/>
     
     
-    <category term="碎碎念" scheme="https://andinsummer.github.io/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    <category term="HEXO" scheme="https://andinsummer.github.io/tags/HEXO/"/>
     
   </entry>
   
