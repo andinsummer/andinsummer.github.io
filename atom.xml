@@ -6,7 +6,7 @@
   <link href="https://andinsummer.github.io/atom.xml" rel="self"/>
   
   <link href="https://andinsummer.github.io/"/>
-  <updated>2024-05-07T12:22:01.886Z</updated>
+  <updated>2024-05-09T05:20:06.156Z</updated>
   <id>https://andinsummer.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>spawn failed错误的解决方法</title>
+    <link href="https://andinsummer.github.io/2024/05/08/spawn%20failed%E9%94%99%E8%AF%AF%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
+    <id>https://andinsummer.github.io/2024/05/08/spawn%20failed%E9%94%99%E8%AF%AF%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
+    <published>2024-05-07T17:00:00.000Z</published>
+    <updated>2024-05-09T05:20:06.156Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近上传文件的时候经常出错，网上的教程大部分都是针对搭建博客时的错误而非部署时的错误，现在解决之后来个复盘。<br>网上主流方法有三类<br>1.把”config.yml”文件的repo从仓库地址改成SSH地址（解决部分网络问题）<br>2.删除”.deploy_git”文件重新部署（用于解决deploy文件产生错误）<br>3.对于代理产生的错误，修改DNS，增加&#x2F;删除GIT代理等</p><p>第三个不是很推荐，除非很确定是代理产生的错误，否则最好不要尝试。<br>第一个和第二个都亲测过，只能说两个都对症，最好部署博客的时候就把repo改成SSH地址（即<a href="mailto:&#x67;&#105;&#116;&#x40;&#x67;&#x69;&#116;&#104;&#117;&#x62;&#x2e;&#x63;&#111;&#x6d;">&#x67;&#105;&#116;&#x40;&#x67;&#x69;&#116;&#104;&#117;&#x62;&#x2e;&#x63;&#111;&#x6d;</a>:yourname&#x2F;yourname.github.io.git），第二条通常情况下很管用，但是第一条第二条都排除过，并且证明了不是端口或者科学上网的原因之后，最好重启电脑，99％都是网络问题导致的（剩下的1％有点玄学的赶脚在里面）<br>但是也有暴力的办法（来自<a href="https://blog.zhheo.com/p/128998ac.html%EF%BC%89%EF%BC%8C%E5%BC%BA%E5%88%B6%E6%8E%A8%E8%BF%9B%EF%BC%8Ccd%E8%BF%9B.deploy_git%E6%96%87%E4%BB%B6%E5%A4%B9%EF%BC%8C%E7%84%B6%E5%90%8E%E4%BD%BF%E7%94%A8git">https://blog.zhheo.com/p/128998ac.html），强制推进，cd进.deploy_git文件夹，然后使用git</a> push -f强制推送。不过治标不治本（有时候连标都治不了），不推荐。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;最近上传文件的时候经常出错，网上的教程大部分都是针对搭建博客时的错误而非部署时的错误，现在解决之后来个复盘。&lt;br&gt;网上主流方法有三类&lt;br&gt;1.把”config.yml”文件的repo从仓库地址改成SSH地址（解决部分网络问题）&lt;br&gt;2.删除”.deploy_git”文</summary>
+      
+    
+    
+    
+    <category term="博客搭建二三事" scheme="https://andinsummer.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%BA%8C%E4%B8%89%E4%BA%8B/"/>
+    
+    
+    <category term="HEXO" scheme="https://andinsummer.github.io/tags/HEXO/"/>
+    
+  </entry>
   
   <entry>
     <title>【骸纲】无题</title>
@@ -43,30 +67,6 @@
     <category term="PWP" scheme="https://andinsummer.github.io/tags/PWP/"/>
     
     <category term="骸纲" scheme="https://andinsummer.github.io/tags/%E9%AA%B8%E7%BA%B2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>spawn failed错误的解决方法</title>
-    <link href="https://andinsummer.github.io/2024/05/06/spawn%20failed%E9%94%99%E8%AF%AF%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/"/>
-    <id>https://andinsummer.github.io/2024/05/06/spawn%20failed%E9%94%99%E8%AF%AF%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</id>
-    <published>2024-05-05T16:00:00.000Z</published>
-    <updated>2024-05-09T04:56:38.271Z</updated>
-    
-    <content type="html"><![CDATA[<p>最近上传文件的时候经常出错，发现有朋友也被这个困扰，网上的教程大部分都是针对搭建博客时的错误而非部署时的错误，现在解决之后来个复盘。<br>网上主流方法有三类<br>1.把”config.yml”文件的repo从仓库地址改成SSH地址（解决部分网络问题）<br>2.删除”.deploy_git”文件重新部署（用于解决deploy文件产生错误）<br>3.对于代理产生的错误，修改DNS，增加&#x2F;删除GIT代理等</p><p>第三个不是很推荐，除非很确定是代理产生的错误，否则最好不要尝试。<br>第一个和第二个都亲测过，只能说两个都对症，最好部署博客的时候就把repo改成SSH地址（即<a href="mailto:&#x67;&#x69;&#116;&#64;&#103;&#x69;&#116;&#104;&#x75;&#x62;&#46;&#x63;&#111;&#109;">&#x67;&#x69;&#116;&#64;&#103;&#x69;&#116;&#104;&#x75;&#x62;&#46;&#x63;&#111;&#109;</a>:yourname&#x2F;yourname.github.io.git），第二条通常情况下很管用，但是第一条第二条都排除过，并且证明了不是端口或者科学上网的原因之后，最好重启电脑，99％都是网络问题导致的（剩下的1％有点玄学的赶脚在里面）<br>但是也有暴力的办法（来自<a href="https://blog.zhheo.com/p/128998ac.html%EF%BC%89%EF%BC%8C%E5%BC%BA%E5%88%B6%E6%8E%A8%E8%BF%9B%EF%BC%8Ccd%E8%BF%9B.deploy_git%E6%96%87%E4%BB%B6%E5%A4%B9%EF%BC%8C%E7%84%B6%E5%90%8E%E4%BD%BF%E7%94%A8git">https://blog.zhheo.com/p/128998ac.html），强制推进，cd进.deploy_git文件夹，然后使用git</a> push -f强制推送。不过治标不治本（有时候连标都治不了），不推荐。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;最近上传文件的时候经常出错，发现有朋友也被这个困扰，网上的教程大部分都是针对搭建博客时的错误而非部署时的错误，现在解决之后来个复盘。&lt;br&gt;网上主流方法有三类&lt;br&gt;1.把”config.yml”文件的repo从仓库地址改成SSH地址（解决部分网络问题）&lt;br&gt;2.删除”.</summary>
-      
-    
-    
-    
-    <category term="博客搭建二三事" scheme="https://andinsummer.github.io/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E4%BA%8C%E4%B8%89%E4%BA%8B/"/>
-    
-    
-    <category term="HEXO" scheme="https://andinsummer.github.io/tags/HEXO/"/>
     
   </entry>
   
