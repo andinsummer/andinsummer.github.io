@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>SUNFLOWER</title>
+  <title>私家轿车疾驰过欧氏平面</title>
   
   <subtitle>hello world</subtitle>
   <link href="https://andinsummer.github.io/atom.xml" rel="self"/>
   
   <link href="https://andinsummer.github.io/"/>
-  <updated>2024-05-28T08:12:00.280Z</updated>
+  <updated>2024-05-07T12:22:01.886Z</updated>
   <id>https://andinsummer.github.io/</id>
   
   <author>
@@ -15,33 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>图片嵌入测试</title>
-    <link href="https://andinsummer.github.io/2024/05/28/%E5%9B%BE%E7%89%87%E5%B5%8C%E5%85%A5%E6%B5%8B%E8%AF%95/"/>
-    <id>https://andinsummer.github.io/2024/05/28/%E5%9B%BE%E7%89%87%E5%B5%8C%E5%85%A5%E6%B5%8B%E8%AF%95/</id>
-    <published>2024-05-28T07:58:09.279Z</published>
-    <updated>2024-05-28T08:12:00.280Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://img.qovv.cn/2024/05/28/66558fa662f84.png"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://img.qovv.cn/2024/05/28/66558fa662f84.png&quot;&gt;&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    <category term="文豪与炼金术师" scheme="https://andinsummer.github.io/categories/%E6%96%87%E8%B1%AA%E4%B8%8E%E7%82%BC%E9%87%91%E6%9C%AF%E5%B8%88/"/>
-    
-    
-    <category term="文豪与炼金术师" scheme="https://andinsummer.github.io/tags/%E6%96%87%E8%B1%AA%E4%B8%8E%E7%82%BC%E9%87%91%E6%9C%AF%E5%B8%88/"/>
-    
-    <category term="中野重治" scheme="https://andinsummer.github.io/tags/%E4%B8%AD%E9%87%8E%E9%87%8D%E6%B2%BB/"/>
-    
-  </entry>
   
   <entry>
     <title>【骸纲】无题</title>
